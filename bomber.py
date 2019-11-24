@@ -550,7 +550,7 @@ elif type == 0:
         dl = float(
             input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 maxlim = 0
-if cc == "91":
+if cc == "880":
     maxlim = 500
 else:
     maxlim = 100
@@ -559,7 +559,7 @@ if nm > maxlim:
           str(maxlim) + ' SMS At Once...\n\n')
     print('Number Of SMS Has been Set To ' + str(maxlim))
     nm = maxlim
-if not cc.strip() == "91":
+if not cc.strip() == "880":
     if type == 1:
         print(
             '\t\tSorry But Call Bombing is Currently Supported Only For Indian Numbers!!!!')
